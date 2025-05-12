@@ -6,6 +6,8 @@ import { useNavigate } from 'react-router'
 export const Button = ({text}: {text: string}) => {
     const {value, actualizarValue} = useContext(contextProps)
     const navigate = useNavigate()
+    const primaryClasses = "bg-blue-500 hover:bg-blue-700 text-white";
+
     
     const handleTap = () => {
         actualizarValue(parseInt(text))  
@@ -17,7 +19,7 @@ export const Button = ({text}: {text: string}) => {
     }, [value])
 
     return (
-        <view className='button' bindtap={handleTap}>
+        <view className='button bg-tertiary' bindtap={handleTap}>
             <text>{text}</text>
         </view>
     )

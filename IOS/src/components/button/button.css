@@ -1,8 +1,10 @@
 
+@tailwindcss;
+
 .button {
     width: 100px;
     height: 100px;
-    background-color: rgb(174, 174, 251);
+   
     border-radius: 10px;
     border: 1px solid rgb(58, 52, 52);
     display: flex;
