@@ -25,6 +25,7 @@ export default {
             primary: '#000000',
             secondary: '#ffffff',
             tertiary: '#7e5bef',
+            quaternary: '#33fcff',
         }
     }
 }
